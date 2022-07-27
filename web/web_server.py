@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def root():
-    return send_from_directory('public', "index.html")
+    return send_from_directory('public', "public/index.html")
